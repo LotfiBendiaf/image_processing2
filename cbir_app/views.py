@@ -39,7 +39,7 @@ def upload_image(request):
             # Resize the image to a specific size (e.g., 224x224)
             target_size = (136, 102)
             image = Image.open(temp_image_path)
-            image = image.resize(target_size, Image.ANTIALIAS)
+            image = image.resize(target_size, Image.Resampling.LANCZOS)
 
             # Save the resized image back to the same file (overwrite the original)
             image.save(temp_image_path)
@@ -86,7 +86,7 @@ def upload_image_query(request):
             # Resize the image to a specific size (e.g., 136x102)
             target_size = (136, 102)
             image = Image.open(temp_image_path)
-            image = image.resize(target_size, Image.ANTIALIAS)
+            image = image.resize(target_size, Image.Resampling.LANCZOS)
 
             # Save the resized image back to the same file (overwrite the original)
             image.save(temp_image_path)
