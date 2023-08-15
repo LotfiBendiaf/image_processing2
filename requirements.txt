@@ -5,7 +5,7 @@ cachetools==5.3.1
 certifi==2023.7.22
 charset-normalizer==3.2.0
 Django==4.2.4
-flatbuffers==1.12
+flatbuffers==23.1.21
 gast==0.4.0
 google-auth==2.22.0
 google-auth-oauthlib==1.0.0
