@@ -8,7 +8,7 @@ Django==4.2.4
 flatbuffers==1.12
 gast==0.4.0
 google-auth==2.22.0
-google-auth-oauthlib==0.4.6
+google-auth-oauthlib==1.0.0
 google-pasta==0.2.0
 grpcio==1.57.0
 gunicorn==21.2.0
